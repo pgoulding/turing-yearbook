@@ -1,0 +1,23 @@
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(222, 239, 253);
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 5%;
+  opacity: .97;
+}
+
+input {
+  margin:5px;
+}
+
+label {
+  margin-right:auto;
+}
+
+form h3 {
+  margin-top: 0;
+}
