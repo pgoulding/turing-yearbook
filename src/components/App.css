@@ -24,3 +24,10 @@ h1 {
   padding: 10px;
   color: limegreen;
 }
+
+.Cohort-staff {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

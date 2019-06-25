@@ -1,0 +1,18 @@
+.Instructor__card{
+  background-color: aliceblue;
+  width: 30%;
+  margin: 5px;
+  height: 400px;
+  overflow: scroll;
+}
+
+.User__quote{
+  text-decoration: wavy;
+}
+
+img {
+  width: 200px;
+  height:200px;
+  margin:10px;
+  object-fit:cover;
+}
