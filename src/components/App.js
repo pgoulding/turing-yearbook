@@ -21,6 +21,7 @@ class App extends Component {
     this.setState({[category]: [...this.state[category],person]})
   }
 
+
   // renderPage = (page) => {
   //   if(page === 'staff' || 'students') {
   //     console.log(page)
@@ -31,6 +32,13 @@ class App extends Component {
   //     return <Splash />
   //   }
   // }
+  
+  addPeople = (person) => {
+    const {category} = person;
+    this.setState({[category]: [...this.state[category], person]})
+    console.log(category)
+    console.log(this.state, person)
+  }
 
   render() {
     return (
