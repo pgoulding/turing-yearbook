@@ -33,7 +33,7 @@ export class Form extends Component {
       quote: '',
       superlative: '',
       photo: '',
-      category: ''
+      category: '',
     });
   }
   
@@ -93,7 +93,7 @@ export class Form extends Component {
           />
           Staff
         </label>
-        <button onClick={e => this.addPeople(e)}>SUBMIT</button>
+        <button className="submit__person-info" onClick={e => this.addPeople(e)}>SUBMIT</button>
       </form>
     )
   }
