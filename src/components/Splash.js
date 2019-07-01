@@ -1,13 +1,12 @@
 import React from 'react'
 
-const Splash = () => {
-  const renderPage = this.props.renderPage()
+const Splash = ({ changePage }) => {
 
   return (
     <div>
-      <button value="staff" onClick={() => renderPage(this.value)}>>Staff</button>
-      <button value="students" onClick={() => renderPage(this.value)}>Students</button>
-      <button value="form" onClick={() => renderPage(this.value)}>>Form</button>
+      <button value="staff" onClick={() => changePage('staff')}>Staff</button>
+      <button value="students" onClick={() => changePage('students')}>Students</button>
+      <button value="form" onClick={() => changePage('form')}>Form</button>
     </div>
   )
 }
