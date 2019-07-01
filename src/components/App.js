@@ -45,18 +45,8 @@ class App extends Component {
       <header className="App-header">
         <h1>Turing Yearbook</h1>
       </header>
-      <nav></nav>
       <h2>{`${ this.state.rendered }`}</h2>
         {this.renderPage(this.state.rendered) }
-      {/* <Form addPeople={this.addPeople}/> */}
-      {/* <h2>Staff</h2>
-        <div className="Cohort">
-          <Cohort data={this.state.staff}/>
-        </div>
-      <h2>Students</h2>
-        <div className="Cohort">
-          <Cohort data={this.state.students}/>
-        </div> */}
       </main>
     );
   }
