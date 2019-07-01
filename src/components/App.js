@@ -38,7 +38,7 @@ class App extends Component {
   changePage = page => {
     this.setState({rendered: page})
   }
-
+        
   render() {
     return (
       <main className="App">
