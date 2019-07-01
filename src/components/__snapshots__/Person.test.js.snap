@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Person should render a person 1`] = `
+<div
+  className="User__card"
+  data-id={1}
+>
+  <img
+    alt="Bobo"
+    className="User__profile-photo"
+    src="./test.jpg"
+  />
+  <h3>
+    Bobo
+  </h3>
+  <p
+    className="User__quote"
+  >
+     I didn't do it
+  </p>
+  <p
+    className="User__superlative"
+  >
+    Probably did it
+  </p>
+</div>
+`;
