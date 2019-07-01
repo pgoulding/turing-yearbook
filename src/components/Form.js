@@ -47,7 +47,8 @@ export class Form extends Component {
         <nav>
           <button value="staff" onClick={() => this.changePage('staff')}>Staff</button>
           <button value="students" onClick={() => this.changePage('students')}>Students</button>
-          <button value="form" onClick={() => this.changePage('form')}>Form</button></nav>
+          <button value="form" onClick={() => this.changePage('form')}>Add People</button>
+        </nav>
         <form>
           <h3>Add A Person</h3>
           <input

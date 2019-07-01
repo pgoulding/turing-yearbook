@@ -6,7 +6,7 @@ const Splash = ({ changePage }) => {
     <div>
       <button value="staff" onClick={() => changePage('staff')}>Staff</button>
       <button value="students" onClick={() => changePage('students')}>Students</button>
-      <button value="form" onClick={() => changePage('form')}>Form</button>
+      <button value="form" onClick={() => changePage('form')}>Add People</button>
     </div>
   )
 }
